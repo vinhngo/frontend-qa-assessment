@@ -2,6 +2,7 @@
 describe('QA interview assessment using seleniumeasy.com demo site', () => {
     it('should have the right title', () => {
         browser.url('https://www.seleniumeasy.com/test/');
+        // Close the marketing modal, if this is breaking for you remove the next 2 lines
         $('.at-cm-no-button').waitForClickable({ timeout: 5000 });
         $('.at-cm-no-button').click();
         expect(browser).toHaveTitle('Selenium Easy - Best Demo website to practice Selenium Webdriver Online');
