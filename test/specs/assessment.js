@@ -25,9 +25,7 @@ describe('QA interview assessment using seleniumeasy.com demo site', () => {
     keeps going from where the previous test left off. Your next test should:
         1. Interact with the menu on the left of the page and click "Input Forms"
         2. On the sub-menu, click "Checkbox Demo"
-        3. Under "Multiple Checkbox Demo" there are 2 bugs with the multiple checkbox component
-        and it is up to you to figure out what it is and write a test that fails at least 1/2 conditions
-        4. Hint: read the bulletpoints to help you find the bug(s)
+        3. Test the multiple checkboxes by validating the rules on the page
 */
     it('should nav to checkboxes test', () => {
         // your test script goes here
